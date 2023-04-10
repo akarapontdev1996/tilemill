@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('git pull') {
       steps {
-        git(url: 'https://github.com/jc2000/tilemill.git', branch: 'tile_loader ')
+        git(url: 'https://github.com/jc2000/tilemill.git', branch: 'tile_loader')
       }
     }
 
