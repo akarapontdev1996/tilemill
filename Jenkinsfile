@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Run') {
+      steps {
+        sh 'sh start.sh'
+      }
+    }
+
   }
 }
